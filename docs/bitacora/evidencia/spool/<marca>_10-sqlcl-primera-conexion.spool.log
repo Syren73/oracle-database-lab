@@ -1,0 +1,63 @@
+USER is "SYSTEM"
+CON_NAME 
+------------------------------
+FREEPDB1
+
+Error starting at line : 1 in command -
+ELECT banner_full FROM v$version
+Error report -
+Unknown Command
+
+
+Error starting at line : 1 in command -
+SQL> SELECT username, account_status FROM dba_users
+Error report -
+Unknown Command
+
+
+Error starting at line : 1 in command -
+WHERE username LIKE 'ADMIN\_%' ESCAPE '\' ORDER BY username
+Error report -
+Unknown Command
+
+
+Error starting at line : 1 in command -
+SQL> SPOOL OFF
+Error report -
+Unknown Command
+
+SP2-0044: For a list of known commands enter HELP
+and to leave enter EXIT.
+
+Error starting at line : 1 in command -
+SQL> CONNECT -save oralab26-system system@localhost:1521/FREEPDB1
+Error report -
+Unknown Command
+
+
+Error starting at line : 1 in command -
+SQL> CONNMGR list
+Error report -
+Unknown Command
+
+
+Error starting at line : 1 in command -
+SQL> EXIT
+Error report -
+Unknown Command
+
+
+BANNER_FULL                                                                            
+______________________________________________________________________________________ 
+Oracle AI Database 26ai Free Release 23.26.3.0.0 - Develop, Learn, and Run for Free    
+Version 23.26.3.0.0                                                                    
+
+
+USERNAME           ACCOUNT_STATUS    
+__________________ _________________ 
+ADMIN_ACADEMIA     OPEN              
+ADMIN_CLINICA      OPEN              
+ADMIN_FINTECH      OPEN              
+ADMIN_LOGISTICA    OPEN              
+ADMIN_RETAIL       OPEN              
+
